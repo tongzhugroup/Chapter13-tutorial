@@ -1,0 +1,27 @@
+plugin load libdeepmd_lmp.so
+
+variable        NSTEPS          equal 10000000
+variable        THERMO_FREQ     equal 1000
+variable        DUMP_FREQ       equal 1000
+variable        TEMP            equal 3000.000000
+variable        TAU_T           equal 0.100000
+
+units           metal
+boundary        p p p
+atom_style      atomic
+
+neighbor        1.0 bin
+
+read_data       data.methane
+pair_style      deepmd graph.pb
+pair_coeff      * *
+
+thermo_style    custom step temp pe ke etotal press vol lx ly lz xy xz yz
+thermo          ${THERMO_FREQ}
+dump            1 all custom ${DUMP_FREQ} methane.lammpstrj id type x y z
+
+velocity        all create ${TEMP} 743574
+fix             1 all nvt temp ${TEMP} ${TEMP} ${TAU_T}
+
+timestep        0.000100
+run             ${NSTEPS}
