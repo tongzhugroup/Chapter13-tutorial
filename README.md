@@ -31,11 +31,15 @@ dp train methane_param.json
 After the training is completed, freeze and compress the model:
 
 ```sh
-dp freeze
-dp compress -o graph.pb
+dp freeze -o graph.pb
 ```
 
-You will get the model file called `graph.pb`.
+You will get the model file called `graph.pb`. We've provided `graph.pb` in this repository to continue the next step.
+
+Then compress the model:
+```sh
+dp compress -i graph.pb -o graph_compressed.pb -t methane_param.json
+```
 
 ## Running the simulation
 
