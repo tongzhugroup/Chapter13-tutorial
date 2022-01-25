@@ -1,5 +1,3 @@
-plugin load libdeepmd_lmp.so
-
 variable        NSTEPS          equal 10000000
 variable        THERMO_FREQ     equal 1000
 variable        DUMP_FREQ       equal 1000
