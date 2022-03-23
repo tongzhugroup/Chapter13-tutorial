@@ -2,7 +2,7 @@
 
 This is a tutorial for the following chapter. Please cite the chapter if you follow this tutorial:
 
-Jinzhe Zeng, Liqun Cao, Tong Zhu, Potentials based on neural networks, Pavlo O. Dral (Eds.), Quantum Chemistry in the Age of Machine Learning, 2022.
+Jinzhe Zeng, Liqun Cao, Tong Zhu (2022). Neural network potentials. Pavlo O. Dral (Eds.), _Quantum Chemistry in the Age of Machine Learning_, Elsevier.
 
 ## Preparation
 
