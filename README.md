@@ -1,8 +1,10 @@
 # Tutorial on NNP MD simulation for methane
 
+[![DOI:10.1016/B978-0-323-90049-2.00001-9](https://img.shields.io/badge/DOI-10.1016%2FB978--0--323--90049--2.00001--9-blue)](https://doi.org/10.1016/B978-0-323-90049-2.00001-9)
+
 This is a tutorial for the following chapter. Please cite the chapter if you follow this tutorial:
 
-Jinzhe Zeng, Liqun Cao, Tong Zhu (2022). Neural network potentials. Pavlo O. Dral (Eds.), _Quantum Chemistry in the Age of Machine Learning_ (pp. 279-294), Elsevier.
+Jinzhe Zeng, Liqun Cao, Tong Zhu (2023). Chapter 12 - Neural network potentials. Pavlo O. Dral (Eds.), _Quantum Chemistry in the Age of Machine Learning_ (pp. 279-294), Elsevier.
 
 ## Preparation
 
