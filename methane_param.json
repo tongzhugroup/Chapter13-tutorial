@@ -51,7 +51,7 @@
         "stop_batch": 400000,
         "disp_file": "lcurve.out",
         "disp_freq": 100,
-        "save_freq": 100,
+        "save_freq": 1000,
         "disp_training": true,
         "time_training": true,
         "profiling": false,
