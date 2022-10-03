@@ -56,6 +56,6 @@ lmp -in input.lammps
 Execute
 
 ```sh
-reacnetgenerator -i methane.lammpstrj --dump -a C H O
+reacnetgenerator -i methane.lammpstrj --dump -a C H O --nohmm
 ```
 
