@@ -8,9 +8,9 @@
         "descriptor": {
             "type": "se_a",
             "sel": [
-                60,
-                60,
-                80
+                80,
+                80,
+                100
             ],
             "rcut_smth": 1.0,
             "rcut": 6.0,
@@ -48,7 +48,7 @@
         "limit_pref_v": 0
     },
     "training": {
-        "stop_batch": 400000,
+        "stop_batch": 4000000,
         "disp_file": "lcurve.out",
         "disp_freq": 100,
         "save_freq": 1000,
