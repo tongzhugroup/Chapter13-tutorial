@@ -10,7 +10,7 @@ Jinzhe Zeng, Liqun Cao, Tong Zhu (2023). Chapter 12 - Neural network potentials.
 
 Before starting this tutorial, you need to download and install the following software:
 
-- [DeePMD-kit v2.0.3](https://github.com/deepmodeling/deepmd-kit/releases/tag/v2.0.3) with [LAMMPS](https://github.com/lammps/lammps) support
+- [DeePMD-kit](https://github.com/deepmodeling/deepmd-kit/) with [LAMMPS](https://github.com/lammps/lammps) support
 - [ReacNetGenerator](https://github.com/tongzhugroup/reacnetgenerator)
 
 It's also recommended to have a GPU environment.
